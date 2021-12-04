@@ -15,4 +15,6 @@
         Reset - Resets the stopwatch.
     </string>
     <string name="Pause">Pause</string>
+    <string name="spaceship">Spaceship</string>
+    <string name="planet">Planet</string>
 </resources>
