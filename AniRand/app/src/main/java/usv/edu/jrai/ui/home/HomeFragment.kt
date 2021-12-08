@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -35,7 +36,30 @@ class HomeFragment : Fragment() {
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
+        val imageView: ImageView = binding.randomAnimeImage
+        /**homeViewModel.imageView.observe(viewLifecycleOwner, Observer {
+            imageView
+        })**/
+        binding.randomizeBtn.setOnClickListener { randomize() }
         return root
+    }
+
+    private fun randomize() {
+        //homeViewModel.randomize()
+        binding.randomAnimeImage.setImageResource(getRandomAnime())
+    }
+
+    private fun getRandomAnime() : Int {
+        val randomInt = (1..6).random()
+
+        return when (randomInt) {
+            1 -> R.drawable.jobless_reincarnation_part2
+            2 -> R.drawable.jujutsu_kaisen0
+            3 -> R.drawable.komiisan_cant_communicate
+            4 -> R.drawable.platinum_end
+            5 -> R.drawable.demon_slayer_mugen_train_tv
+            else -> R.drawable.takt_opdestiny
+        }
     }
 
     override fun onDestroyView() {
