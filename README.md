@@ -1,4 +1,4 @@
-## AniRand
+# AniRand
 
 ## Description
 Anime randomizer app with anime, manga, and search utilizing AniList.co API.
