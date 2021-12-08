@@ -1,6 +1,7 @@
-<h1 align="center"><AniRand></h1>
+## AniRand
 
-<p align="center"<Anime randomizer app with anime, manga, and search utilizing AniList.co API.></p>
+## Description
+Anime randomizer app with anime, manga, and search utilizing AniList.co API.
 
 ## Links
 - [API](<https://github.com/AniList/ApiV2-GraphQL-Docs> "API")
