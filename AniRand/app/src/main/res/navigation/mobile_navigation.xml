@@ -9,7 +9,21 @@
         android:id="@+id/navigation_home"
         android:name="usv.edu.jrai.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_animetracker"
+            app:destination="@id/navigation_animetracker" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_notifications"
+            app:destination="@id/navigation_notifications" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -22,4 +36,9 @@
         android:name="usv.edu.jrai.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_animetracker"
+        android:name="usv.edu.jrai.ui.animetracker.AnimeTrackerFragment"
+        android:label="@string/title_animetracker"
+        tools:layout="@layout/fragment_animetracker" />
 </navigation>
