@@ -1,7 +1,10 @@
 # AniRand
 
 ## Description
-Anime randomizer app with anime, manga, and search utilizing the AniList.co API.
+Anime randomizer app with anime tracker, manga tracker, and search functionality utilizing the AniList.co API.
+
+### Version
+v0.01
 
 ## Links
 - [AniList.co API](<https://github.com/AniList/ApiV2-GraphQL-Docs> "API")
