@@ -11,6 +11,12 @@ Anime randomizer app with anime, manga, and search utilizing AniList.co API.
 ![Anime Tracker]()
 ![Manga Tracker]()
 
+## How to Use
+- Download the source code from this repository.
+- Extract the files to a location on your PC.
+- Open in Android Studio.
+- Run the app in Android Studio, either through the emulator or your Android device.
+
 ## Built With
 - Kotlin
 - GraphQL
