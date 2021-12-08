@@ -17,6 +17,7 @@
         android:title="@string/title_notifications" />
     <item
         android:id="@+id/navigation_animetracker"
+        android:icon="@android:drawable/ic_menu_slideshow"
         android:title="@string/title_animetracker" />
 
 </menu>
