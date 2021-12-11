@@ -21,12 +21,12 @@ class NotificationsFragment : Fragment() {
     private val binding get() = _binding!!
 
     override fun onCreateView(
-            inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View? {
         notificationsViewModel =
-                ViewModelProvider(this).get(NotificationsViewModel::class.java)
+            ViewModelProvider(this).get(NotificationsViewModel::class.java)
 
         _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
         val root: View = binding.root
@@ -34,6 +34,18 @@ class NotificationsFragment : Fragment() {
         val textView: TextView = binding.textNotifications
         notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
+        })
+        val textView2: TextView = binding.textNotifications2
+        notificationsViewModel.text2.observe(viewLifecycleOwner, Observer {
+            textView2.text = it
+        })
+        val textView3: TextView = binding.textNotifications3
+        notificationsViewModel.text3.observe(viewLifecycleOwner, Observer {
+            textView3.text = it
+        })
+        val textView4: TextView = binding.textNotifications4
+        notificationsViewModel.text4.observe(viewLifecycleOwner, Observer {
+            textView4.text = it
         })
         return root
     }
