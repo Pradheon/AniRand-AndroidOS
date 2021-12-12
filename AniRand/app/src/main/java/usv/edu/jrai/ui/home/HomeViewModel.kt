@@ -12,7 +12,7 @@ class HomeViewModel : ViewModel() {
     //lateinit var randAnimeImage : ImageView
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = "Anime name"
     }
     val text: LiveData<String> = _text
 

@@ -9,7 +9,7 @@ import usv.edu.jrai.R
 class AnimeTrackerViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "Anime"
     }
     val text: LiveData<String> = _text
 }

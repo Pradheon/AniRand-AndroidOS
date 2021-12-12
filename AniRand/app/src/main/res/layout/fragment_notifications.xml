@@ -7,13 +7,19 @@
     tools:context=".ui.notifications.NotificationsFragment">
 
     <ScrollView
+        android:id="@+id/verticalScrollView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/text_notifications"
@@ -25,8 +31,10 @@
                 android:textSize="20sp" />
 
             <HorizontalScrollView
+                android:id="@+id/hScrollView1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:contentDescription="@string/trending_now">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -48,7 +56,7 @@
                         android:paddingStart="4dp"
                         android:paddingEnd="4dp"
                         android:src="@drawable/demon_slayer_mugen_train_tv"
-                        app:layout_constraintStart_toStartOf="@+id/imageView"/>
+                        app:layout_constraintStart_toStartOf="@+id/imageView" />
 
                     <ImageView
                         android:id="@+id/imageView6"
@@ -57,7 +65,7 @@
                         android:paddingStart="4dp"
                         android:paddingEnd="4dp"
                         android:src="@drawable/demon_slayer_mugen_train_tv"
-                        app:layout_constraintStart_toStartOf="@+id/imageView5"/>
+                        app:layout_constraintStart_toStartOf="@+id/imageView5" />
 
                     <ImageView
                         android:id="@+id/imageView7"
@@ -66,7 +74,7 @@
                         android:paddingStart="4dp"
                         android:paddingEnd="4dp"
                         android:src="@drawable/demon_slayer_mugen_train_tv"
-                        app:layout_constraintStart_toStartOf="@+id/imageView6"/>
+                        app:layout_constraintStart_toStartOf="@+id/imageView6" />
 
                     <ImageView
                         android:id="@+id/imageView8"
@@ -75,7 +83,7 @@
                         android:paddingStart="4dp"
                         android:paddingEnd="4dp"
                         android:src="@drawable/demon_slayer_mugen_train_tv"
-                        app:layout_constraintStart_toStartOf="@+id/imageView7"/>
+                        app:layout_constraintStart_toStartOf="@+id/imageView7" />
 
                 </LinearLayout>
             </HorizontalScrollView>
@@ -90,8 +98,10 @@
                 android:textSize="20sp" />
 
             <HorizontalScrollView
+                android:id="@+id/hScrollView2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:contentDescription="@string/popular_this_season">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -154,8 +164,10 @@
                 android:textSize="20sp" />
 
             <HorizontalScrollView
+                android:id="@+id/hScrollView3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:contentDescription="@string/upcoming_next_season">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -218,9 +230,11 @@
                 android:textSize="20sp" />
 
             <HorizontalScrollView
+                android:id="@+id/hScrollView4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="50dp">
+                android:layout_marginBottom="8dp"
+                android:contentDescription="@string/all_time_popular">
 
                 <LinearLayout
                     android:layout_width="wrap_content"

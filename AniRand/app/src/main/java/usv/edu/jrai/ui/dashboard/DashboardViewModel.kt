@@ -9,7 +9,7 @@ import usv.edu.jrai.R
 class DashboardViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "Manga"
     }
     val text: LiveData<String> = _text
 }
