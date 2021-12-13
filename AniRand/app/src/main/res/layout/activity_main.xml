@@ -12,16 +12,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
         android:backgroundTint="@color/material_on_background_disabled"
-        android:queryHint="Browse anime, manga, and more!"
+        android:queryHint="@string/query_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/searchRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:backgroundTint="@color/cardview_dark_background"/>
+            android:backgroundTint="@color/cardview_dark_background" />
     </SearchView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

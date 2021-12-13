@@ -9,4 +9,5 @@
     <string name="popular_this_season">Popular This Season</string>
     <string name="upcoming_next_season">Upcoming Next Season</string>
     <string name="all_time_popular">All Time Popular</string>
+    <string name="query_hint">Browse anime, manga, and more!</string>
 </resources>
