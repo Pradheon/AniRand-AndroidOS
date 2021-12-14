@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_randomanime">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="usv.edu.jrai.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" >
+        android:id="@+id/navigation_randomanime"
+        android:name="usv.edu.jrai.ui.randomanime.RandomAnimeFragment"
+        android:label="@string/title_randomanime"
+        tools:layout="@layout/fragment_randomanime" >
         <action
             android:id="@+id/action_navigation_home_to_navigation_dashboard"
-            app:destination="@id/navigation_dashboard"
+            app:destination="@id/navigation_mangatracker"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
@@ -22,23 +22,42 @@
             app:destination="@id/navigation_animetracker" />
         <action
             android:id="@+id/action_navigation_home_to_navigation_notifications"
-            app:destination="@id/navigation_notifications" />
+            app:destination="@id/navigation_discovery" />
+        <action
+            android:id="@+id/action_navigation_home_to_descriptionFragment"
+            app:destination="@id/descriptionFragment" />
     </fragment>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="usv.edu.jrai.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_mangatracker"
+        android:name="usv.edu.jrai.ui.mangatracker.MangaTrackerFragment"
+        android:label="@string/title_mangatracker"
+        tools:layout="@layout/fragment_mangatracker" >
+        <action
+            android:id="@+id/action_navigation_mangatracker_to_descriptionFragment"
+            app:destination="@id/descriptionFragment" />
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="usv.edu.jrai.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_discovery"
+        android:name="usv.edu.jrai.ui.discovery.DiscoveryFragment"
+        android:label="@string/title_discovery"
+        tools:layout="@layout/fragment_discovery" >
+        <action
+            android:id="@+id/action_navigation_discovery_to_descriptionFragment"
+            app:destination="@id/descriptionFragment" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_animetracker"
         android:name="usv.edu.jrai.ui.animetracker.AnimeTrackerFragment"
         android:label="@string/title_animetracker"
-        tools:layout="@layout/fragment_animetracker" />
+        tools:layout="@layout/fragment_animetracker" >
+        <action
+            android:id="@+id/action_navigation_animetracker_to_descriptionFragment"
+            app:destination="@id/descriptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/descriptionFragment"
+        android:name="usv.edu.jrai.ui.description.DescriptionFragment"
+        android:label="DescriptionFragment" />
 </navigation>

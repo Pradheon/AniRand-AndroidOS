@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">AniRand</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_randomanime">Random Anime</string>
+    <string name="title_mangatracker">Manga</string>
+    <string name="title_discovery">Discovery</string>
     <string name="title_animetracker">Anime</string>
     <string name="randomize">Randomize</string>
     <string name="trending_now">Trending Now</string>
@@ -10,4 +10,25 @@
     <string name="upcoming_next_season">Upcoming Next Season</string>
     <string name="all_time_popular">All Time Popular</string>
     <string name="query_hint">Browse anime, manga, and more!</string>
+    <string name="text_synopsis">Rudeus, Eris, and Rujierd head for Asura Kingdom in search of answers.
+        Meanwhile, Roxy sets out across the Demon Continent to find Rudeus.\n\n
+        (Source: Funimation, edited)</string>
+    <string name="rating_spinner">Rating Spinner</string>
+    <string name="status_spinner">Status Spinner</string>
+    <string name="progress_spinner">Progress Spinner</string>
+
+    <!--
+    <resources>
+        <string-array name="status_array">
+            <item>Mercury</item>
+            <item>Venus</item>
+            <item>Earth</item>
+            <item>Mars</item>
+            <item>Jupiter</item>
+            <item>Saturn</item>
+            <item>Uranus</item>
+            <item>Neptune</item>
+        </string-array>
+    </resources>-->
+
 </resources>

@@ -1,7 +1,6 @@
 package usv.edu.jrai
 
 import android.os.Bundle
-import android.widget.ArrayAdapter
 import android.widget.SearchView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -41,7 +40,8 @@ class MainActivity : AppCompatActivity() {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(setOf(
-            R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications))
+            R.id.navigation_randomanime, R.id.navigation_mangatracker, R.id.navigation_discovery,
+            R.id.navigation_animetracker))
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }

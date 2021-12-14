@@ -5,4 +5,7 @@
     <string name="popular_this_season">Popular This Season</string>
     <string name="upcoming_next_season">Upcoming Next Season</string>
     <string name="all_time_popular">All Time Popular</string>
+    <string name="rating_spinner">Rating Spinner</string>
+    <string name="status_spinner">Status Spinner</string>
+    <string name="progress_spinner">Progress Spinner</string>
 </resources>

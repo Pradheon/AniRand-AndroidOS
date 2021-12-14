@@ -11,7 +11,9 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import usv.edu.jrai.CustomExpandableListAdapter
+import usv.edu.jrai.R
 import usv.edu.jrai.databinding.FragmentAnimetrackerBinding
 
 class AnimeTrackerFragment : Fragment() {
@@ -86,6 +88,7 @@ class AnimeTrackerFragment : Fragment() {
                 ),
                 Toast.LENGTH_SHORT
             ).show()
+            findNavController().navigate(R.id.action_navigation_animetracker_to_descriptionFragment)
             false
         }
     }
