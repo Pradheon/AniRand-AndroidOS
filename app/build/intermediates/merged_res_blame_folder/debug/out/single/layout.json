@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_discovery.xml",
+        "source": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\src\\main\\res\\layout\\fragment_discovery.xml"
+    },
+    {
+        "merged": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_group.xml",
+        "source": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\src\\main\\res\\layout\\list_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_description.xml",
+        "source": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\src\\main\\res\\layout\\fragment_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_animetracker.xml",
+        "source": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\src\\main\\res\\layout\\fragment_animetracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_mangatracker.xml",
+        "source": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\src\\main\\res\\layout\\fragment_mangatracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_randomanime.xml",
+        "source": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\src\\main\\res\\layout\\fragment_randomanime.xml"
+    },
+    {
+        "merged": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notifications.xml",
+        "source": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_item.xml",
+        "source": "C:\\Users\\pradh\\AndroidStudioProjects\\AniRand\\app\\src\\main\\res\\layout\\list_item.xml"
+    }
+]

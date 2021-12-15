@@ -1,0 +1,18 @@
+usv/edu/jrai/BuildConfig.java
+ usv.edu.jrai.BuildConfig
+usv/edu/jrai/databinding/FragmentDescriptionBinding.java
+ usv.edu.jrai.databinding.FragmentDescriptionBinding
+usv/edu/jrai/databinding/FragmentAnimetrackerBinding.java
+ usv.edu.jrai.databinding.FragmentAnimetrackerBinding
+usv/edu/jrai/databinding/ListGroupBinding.java
+ usv.edu.jrai.databinding.ListGroupBinding
+usv/edu/jrai/databinding/FragmentRandomanimeBinding.java
+ usv.edu.jrai.databinding.FragmentRandomanimeBinding
+usv/edu/jrai/databinding/ActivityMainBinding.java
+ usv.edu.jrai.databinding.ActivityMainBinding
+usv/edu/jrai/databinding/FragmentDiscoveryBinding.java
+ usv.edu.jrai.databinding.FragmentDiscoveryBinding
+usv/edu/jrai/databinding/ListItemBinding.java
+ usv.edu.jrai.databinding.ListItemBinding
+usv/edu/jrai/databinding/FragmentMangatrackerBinding.java
+ usv.edu.jrai.databinding.FragmentMangatrackerBinding
