@@ -26,6 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:layout_marginEnd="8dp"
                 android:textAlignment="viewStart"
                 android:textSize="20sp" />
@@ -34,6 +35,7 @@
                 android:id="@+id/hScrollView1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/image_view_padding_start"
                 android:contentDescription="@string/trending_now"
                 android:fadingEdge="horizontal">
 
@@ -46,45 +48,50 @@
                         android:id="@+id/imageView"
                         android:layout_width="@dimen/image_view_small_width"
                         android:layout_height="@dimen/image_view_small_height"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2" />
+                        android:layout_marginStart="@dimen/activity_horizontal_margin"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/takt_opdestiny" />
 
                     <ImageView
                         android:id="@+id/imageView2"
                         android:layout_width="@dimen/image_view_small_width"
                         android:layout_height="@dimen/image_view_small_height"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView"
+                        app:srcCompat="@drawable/one_piece" />
 
                     <ImageView
                         android:id="@+id/imageView3"
                         android:layout_width="@dimen/image_view_small_width"
                         android:layout_height="@dimen/image_view_small_height"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView2" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView2"
+                        app:srcCompat="@drawable/demon_slayer_entertainment_district_arc" />
 
                     <ImageView
                         android:id="@+id/imageView4"
                         android:layout_width="@dimen/image_view_small_width"
                         android:layout_height="@dimen/image_view_small_height"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView3" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView3"
+                        app:srcCompat="@drawable/jobless_reincarnation_part2" />
 
                     <ImageView
                         android:id="@+id/imageView5"
                         android:layout_width="@dimen/image_view_small_width"
                         android:layout_height="@dimen/image_view_small_height"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView4" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView4"
+                        app:srcCompat="@drawable/komiisan_cant_communicate" />
 
                 </LinearLayout>
             </HorizontalScrollView>
@@ -94,6 +101,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:layout_marginEnd="8dp"
                 android:textAlignment="viewStart"
                 android:textSize="20sp" />
@@ -102,6 +110,7 @@
                 android:id="@+id/hScrollView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/image_view_padding_start"
                 android:contentDescription="@string/popular_this_season">
 
                 <LinearLayout
@@ -112,45 +121,50 @@
                         android:id="@+id/imageView6"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2" />
+                        android:layout_marginStart="@dimen/activity_horizontal_margin"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/demon_slayer_mugen_train_tv" />
 
                     <ImageView
                         android:id="@+id/imageView7"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView6" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView6"
+                        app:srcCompat="@drawable/komiisan_cant_communicate" />
 
                     <ImageView
                         android:id="@+id/imageView8"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView7" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView7"
+                        app:srcCompat="@drawable/jobless_reincarnation_part2" />
 
                     <ImageView
                         android:id="@+id/imageView9"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView8" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView8"
+                        app:srcCompat="@drawable/jujutsu_kaisen0" />
 
                     <ImageView
                         android:id="@+id/imageView10"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView9" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView9"
+                        app:srcCompat="@drawable/takt_opdestiny" />
 
                 </LinearLayout>
             </HorizontalScrollView>
@@ -160,6 +174,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:layout_marginEnd="8dp"
                 android:textAlignment="viewStart"
                 android:textSize="20sp" />
@@ -168,6 +183,7 @@
                 android:id="@+id/hScrollView3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/image_view_padding_start"
                 android:contentDescription="@string/upcoming_next_season">
 
                 <LinearLayout
@@ -178,45 +194,52 @@
                         android:id="@+id/imageView11"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2" />
+                        android:layout_marginStart="@dimen/activity_horizontal_margin"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:paddingStart="@dimen/image_view_padding_start_list"
+                        android:paddingEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/attack_on_titan_final_season_part2" />
 
                     <ImageView
                         android:id="@+id/imageView12"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView11" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView11"
+                        app:srcCompat="@drawable/demon_slayer_entertainment_district_arc" />
 
                     <ImageView
                         android:id="@+id/imageView13"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView12" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView12"
+                        app:srcCompat="@drawable/arifureta_from_commonplace_to_worlds_strongest_season2" />
 
                     <ImageView
                         android:id="@+id/imageView14"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView13" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView13"
+                        app:srcCompat="@drawable/worlds_end_harem" />
 
                     <ImageView
                         android:id="@+id/imageView15"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView14" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView14"
+                        app:srcCompat="@drawable/my_dressup_darling" />
 
                 </LinearLayout>
             </HorizontalScrollView>
@@ -226,6 +249,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:layout_marginEnd="8dp"
                 android:textAlignment="viewStart"
                 android:textSize="20sp" />
@@ -234,6 +258,7 @@
                 android:id="@+id/hScrollView4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/image_view_padding_start"
                 android:layout_marginBottom="8dp"
                 android:contentDescription="@string/all_time_popular">
 
@@ -245,45 +270,50 @@
                         android:id="@+id/imageView16"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2" />
+                        android:layout_marginStart="@dimen/activity_horizontal_margin"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/attack_on_titan" />
 
                     <ImageView
                         android:id="@+id/imageView17"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView16" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView16"
+                        app:srcCompat="@drawable/death_note" />
 
                     <ImageView
                         android:id="@+id/imageView18"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView17" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView17"
+                        app:srcCompat="@drawable/my_hero_academia" />
 
                     <ImageView
                         android:id="@+id/imageView19"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView18" />
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView18"
+                        app:srcCompat="@drawable/demon_slayer" />
 
                     <ImageView
                         android:id="@+id/imageView20"
                         android:layout_width="100sp"
                         android:layout_height="140sp"
-                        android:paddingStart="4dp"
-                        android:paddingEnd="4dp"
-                        android:src="@drawable/jobless_reincarnation_part2"
-                        app:layout_constraintStart_toStartOf="@+id/imageView19" /> <!-- Make padding start and end dimen value and update all paddings in this file -->
+                        android:layout_marginStart="@dimen/image_view_padding_start"
+                        android:layout_marginEnd="@dimen/image_view_padding_end"
+                        android:scaleType="centerInside"
+                        app:layout_constraintStart_toStartOf="@+id/imageView19"
+                        app:srcCompat="@drawable/one_punch_man" /> <!-- Make padding start and end dimen value and update all paddings in this file -->
 
                 </LinearLayout>
             </HorizontalScrollView>

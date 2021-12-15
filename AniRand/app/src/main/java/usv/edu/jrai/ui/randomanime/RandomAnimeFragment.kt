@@ -50,7 +50,7 @@ class RandomAnimeFragment : Fragment() {
     }
 
     private fun getRandomAnime() : Int {
-        val randomInt = (1..6).random()
+        val randomInt = (1..20).random()
 
         return when (randomInt) {
             1 -> R.drawable.jobless_reincarnation_part2
@@ -58,6 +58,20 @@ class RandomAnimeFragment : Fragment() {
             3 -> R.drawable.komiisan_cant_communicate
             4 -> R.drawable.platinum_end
             5 -> R.drawable.demon_slayer_mugen_train_tv
+            6 -> R.drawable.arifureta_from_commonplace_to_worlds_strongest_season2
+            7 -> R.drawable.attack_on_titan
+            8 -> R.drawable.attack_on_titan_final_season_part2
+            9 -> R.drawable.death_note
+            10 -> R.drawable.demon_slayer
+            11 -> R.drawable.demon_slayer_entertainment_district_arc
+            12 -> R.drawable.hunterxhunter
+            13 -> R.drawable.mierukochan
+            14 -> R.drawable.my_dressup_darling
+            15 -> R.drawable.my_hero_academia
+            16 -> R.drawable.one_piece
+            17 -> R.drawable.one_punch_man
+            18 -> R.drawable.the_case_study_of_vanitas_part2
+            19 -> R.drawable.worlds_end_harem
             else -> R.drawable.takt_opdestiny
         }
     }

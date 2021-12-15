@@ -4,4 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="image_view_small_width">100sp</dimen>
     <dimen name="image_view_small_height">140sp</dimen>
+    <dimen name="image_view_padding_start">4dp</dimen>
+    <dimen name="image_view_padding_end">4dp</dimen>
+    <dimen name="image_view_padding_start_list">4dp</dimen>
 </resources>
