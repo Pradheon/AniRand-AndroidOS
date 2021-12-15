@@ -4,7 +4,7 @@
 Anime randomizer app with anime tracker, manga tracker, and search functionality utilizing the AniList.co API.
 
 ### Version
-v0.10
+v0.12
 
 ## Links
 - [AniList.co API](<https://github.com/AniList/ApiV2-GraphQL-Docs> "API")
